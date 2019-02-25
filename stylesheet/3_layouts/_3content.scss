@@ -1,0 +1,49 @@
+.contact
+{
+    background-image: url("../4_main/images/last.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+    background-repeat: no-repeat;
+    .contact-content
+    {
+        background: black;
+        width:80%;
+        margin:0 auto;
+    text-align: center;
+    }
+    #content_2
+    {
+      
+        height: 47px;
+        position: relative;
+        top:173px;
+        p{
+            position: relative;
+            top:15px;
+
+        }
+    }
+
+     #content_1
+     {
+        height:80px;
+        position: relative;
+        top:170px;
+        h1{
+            position: relative;
+            top:19px;
+
+        }
+     }   
+     .contact-icon{
+         position: relative;
+         top:402px;      
+         width:553px;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-gap:58px;
+     }
+    
+}

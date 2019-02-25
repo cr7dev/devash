@@ -1,0 +1,45 @@
+
+.header {
+      background: url("../4_main/images/header.jpg");
+      background-size: cover;
+      background-position:0% 0%;
+      height: 100vh;
+      background-repeat: no-repeat;
+    
+       .navigation{
+         overflow:hidden;
+         float:right;
+
+         li{
+          display: inline-block;
+
+         a {
+             text-decoration: none;
+             color:white;
+             
+           }
+        }
+       }
+        .header-content
+        {position:relative;
+          left:227px;
+          top: 360px;
+          color:white;
+          
+          
+         h1{
+          font-size:65px;
+          line-height: 55px;
+          font-family: tahoma,arial sans-serif;
+          font-weight: bolder;
+          line-height: 51px;
+         }
+         p {
+             
+         }
+        }
+
+      }
+       /*header content*/
+       
+        
